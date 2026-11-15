@@ -121,7 +121,10 @@
     }
     const themeToggle = document.querySelector('.theme-toggle');
     const savedTheme = localStorage.getItem('theme');
-    if (savedTheme === 'light') document.documentElement.dataset.theme = 'light';
+    if (savedTheme === 'light') {
+      document.documentElement.dataset.theme = 'light';
+      document.documentElement.classList.add('theme-light');
+    }
     const updateThemeButton = () => {
       const light = document.documentElement.dataset.theme === 'light';
       themeToggle.textContent = light ? 'Dark mode' : 'Light mode';
@@ -131,6 +134,7 @@
     themeToggle.addEventListener('click', () => {
       const light = document.documentElement.dataset.theme !== 'light';
       document.documentElement.dataset.theme = light ? 'light' : 'dark';
+      document.documentElement.classList.toggle('theme-light', light);
       localStorage.setItem('theme', light ? 'light' : 'dark');
       updateThemeButton();
     });
