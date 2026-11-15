@@ -3,67 +3,98 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="KALPAJYOTI HAZARIKA - researcher interested in machine learning, statistical modeling, optimization, and decision science.">
-  <title>KALPAJYOTI HAZARIKA | Profile</title>
+  <meta name="description" content="Kalpajyoti Hazarika - PhD Scholar in computational neuroscience at IISc Bangalore.">
+  <title>Kalpajyoti Hazarika | Computational Neuroscience</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="page-shell">
-    <header class="topbar">
-      <a class="wordmark" href="./">KH<span>.</span></a>
-      <a class="github-link" href="https://github.com/Kalpajyot" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
-    </header>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top">KH</a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
 
-    <main>
-      <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">PROFILE / 2026</p>
-          <h1>Curious about<br><em>how we think.</em></h1>
-          <p class="intro">I’m KALPAJYOTI HAZARIKA, exploring the ideas and systems behind intelligent decisions.</p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="https://github.com/Kalpajyot" target="_blank" rel="noreferrer">View my GitHub <span>↗</span></a>
-            <a class="button button-quiet" href="mailto:kalpajyot@example.com">Get in touch</a>
-          </div>
-        </div>
-        <div class="portrait-card">
-          <div class="portrait-frame">
-            <img src="https://avatars.githubusercontent.com/u/33069539?v=4" alt="Portrait of KALPAJYOTI HAZARIKA">
-          </div>
-          <p class="portrait-caption">Based in Laluk, Lakhimpur<br><span>Currently at IISc</span></p>
-        </div>
-      </section>
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="kicker">PhD Scholar · Centre for Neuroscience · IISc</p>
+        <!-- Edit your name and position here. -->
+        <h1>Kalpajyoti<br><em>Hazarika</em></h1>
+        <p class="tagline">I study how the brain plans, decides and executes movement — from motor decisions to decoding intention from biophysical signals.</p>
+        <a class="text-link" href="#research">Explore my research <span>↗</span></a>
+      </div>
+      <div class="hero-photo-wrap">
+        <!-- Replace photo.jpg with your preferred profile photo. -->
+        <img class="hero-photo" src="photo.jpg" alt="Kalpajyoti Hazarika" onerror="this.src='https://avatars.githubusercontent.com/u/33069539?v=4'">
+        <span class="photo-caption">Bangalore, India<br>Indian Institute of Science</span>
+      </div>
+    </section>
 
-      <section class="content-grid">
-        <div class="section-label">01 / ABOUT</div>
-        <div class="section-body">
-          <p class="large-copy">I’m interested in the space where mathematics, computation, and human reasoning meet. My work and learning span both rigorous theory and practical approaches to making better decisions.</p>
-          <p class="small-copy">I like asking foundational questions, finding structure in complex problems, and turning abstract ideas into useful models.</p>
-        </div>
-      </section>
+    <section id="about" class="section container split-section">
+      <p class="section-number">01 / ABOUT</p>
+      <div>
+        <!-- Edit your biography here. -->
+        <p class="lead">I am a PhD scholar at the Centre for Neuroscience, Indian Institute of Science (IISc), Bangalore.</p>
+        <p class="body-copy">My research looks at how the brain makes motor decisions and controls movement. I combine biophysical signal processing and computational neuroscience to study how actions are planned and executed, with a focus on decoding movement intention from neural and physiological signals.</p>
+      </div>
+    </section>
 
-      <section class="content-grid">
-        <div class="section-label">02 / INTERESTS</div>
-        <div class="interest-list">
-          <div class="interest-item"><span>01</span><strong>Machine learning</strong><small>Learning from data</small></div>
-          <div class="interest-item"><span>02</span><strong>Statistical modeling</strong><small>Understanding uncertainty</small></div>
-          <div class="interest-item"><span>03</span><strong>Optimization</strong><small>Finding better paths</small></div>
-          <div class="interest-item"><span>04</span><strong>Decision science</strong><small>Reasoning under constraints</small></div>
-          <div class="interest-item"><span>05</span><strong>Mathematics & logic</strong><small>Exploring foundations</small></div>
-          <div class="interest-item"><span>06</span><strong>Linguistics & cognition</strong><small>How meaning emerges</small></div>
-        </div>
-      </section>
+    <section id="research" class="section container">
+      <div class="section-heading"><p class="section-number">02 / RESEARCH</p><p class="section-note">Questions I keep returning to</p></div>
+      <div class="research-grid">
+        <article class="research-card"><span>01</span><h2>Motor decisions</h2><p>How does the brain weigh options and commit to a movement?</p></article>
+        <article class="research-card"><span>02</span><h2>Motor control</h2><p>How are intentions transformed into precise, adaptive actions?</p></article>
+        <article class="research-card"><span>03</span><h2>Intention decoding</h2><p>Can biophysical signals reveal movement before it begins?</p></article>
+      </div>
+    </section>
 
-      <section class="contact-banner">
-        <p class="eyebrow">03 / CONNECT</p>
-        <h2>Let’s explore<br><em>the next question.</em></h2>
-        <a class="contact-link" href="https://github.com/Kalpajyot" target="_blank" rel="noreferrer">github.com/Kalpajyot <span>↗</span></a>
-      </section>
-    </main>
+    <section id="publications" class="section container split-section">
+      <p class="section-number">03 / PUBLICATIONS</p>
+      <div class="publication-list">
+        <!-- Replace this placeholder with your publication. -->
+        <article class="publication"><p class="publication-year">20XX</p><div><h2>Publication title goes here</h2><p>Author list · Journal or conference</p><a class="text-link" href="#">Read paper <span>↗</span></a></div></article>
+      </div>
+    </section>
 
-    <footer><span>© 2026 KALPAJYOTI HAZARIKA</span><span>Built with curiosity.</span></footer>
-  </div>
+    <section id="cv" class="section container cv-section">
+      <div class="section-heading"><p class="section-number">04 / CV</p><a class="button" href="cv.pdf">Download CV <span>↓</span></a></div>
+      <div class="timeline">
+        <!-- Edit the timeline entries below. -->
+        <div class="timeline-item"><p>Present</p><div><h2>PhD Scholar</h2><p>Centre for Neuroscience, Indian Institute of Science (IISc), Bangalore</p></div></div>
+        <div class="timeline-item"><p>Education</p><div><h2>Academic background</h2><p>Add your degree, institution, and dates here.</p></div></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container">
+      <p class="section-number">05 / CONTACT</p>
+      <div class="contact-content"><h2>Let’s talk about<br><em>brains & behaviour.</em></h2><div class="contact-links">
+        <!-- Replace placeholder URLs with your profiles. -->
+        <a href="mailto:your.email@example.com">Email <span>↗</span></a>
+        <a href="#">Google Scholar <span>↗</span></a>
+        <a href="#">ORCID <span>↗</span></a>
+        <a href="https://github.com/Kalpajyot">GitHub <span>↗</span></a>
+        <a href="#">LinkedIn <span>↗</span></a>
+      </div></div>
+    </section>
+  </main>
+
+  <footer class="footer container"><span>© 2026 Kalpajyoti Hazarika</span><span>Computational neuroscience · IISc</span></footer>
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const links = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => { const open = links.classList.toggle('open'); toggle.setAttribute('aria-expanded', open); });
+    links.querySelectorAll('a').forEach(link => link.addEventListener('click', () => links.classList.remove('open')));
+  </script>
 </body>
 </html>
