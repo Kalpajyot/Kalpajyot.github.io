@@ -11,10 +11,9 @@ for (let i = 0; i < 200; i += 1) {
 }
 const themeToggle = document.querySelector('.theme-toggle');
 const savedTheme = localStorage.getItem('theme');
-if (savedTheme === 'light') {
-  document.documentElement.dataset.theme = 'light';
-  document.documentElement.classList.add('theme-light');
-}
+const initialTheme = savedTheme === 'dark' ? 'dark' : 'light';
+document.documentElement.dataset.theme = initialTheme;
+document.documentElement.classList.toggle('theme-light', initialTheme === 'light');
 const updateThemeButton = () => {
   const light = document.documentElement.dataset.theme === 'light';
   themeToggle.textContent = light ? 'Dark mode' : 'Light mode';
