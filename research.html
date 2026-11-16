@@ -34,8 +34,39 @@
         <article class="research-card"><span>02</span><h2>Motor control</h2><p>How are intentions transformed into precise, adaptive actions? Once a decision is made, the brain must turn an abstract goal into coordinated muscle activity. I'm interested in the computations that make movement accurate yet flexible, and in how the motor system corrects errors and adapts as conditions change.</p></article>
         <article class="research-card"><span>03</span><h2>Intention decoding</h2><p>Can biophysical signals reveal movement before it begins? Neural and physiological signals carry traces of what we're about to do, even before we move. Using signal processing and computational models, I work on reading out these intentions early and reliably, with applications in brain–computer interfaces and assistive technology.</p></article>
       </div>
-    </section></main>
+    </section>
+    <section class="resource-hub section container" id="resources">
+      <div class="resource-heading">
+        <p class="section-number">03 / RESOURCES</p>
+        <h1>Explore Neuroscience</h1>
+        <p>Discover the latest neuroscience research, fascinating brain facts, consciousness studies, neural engineering and scientific insights.</p>
+      </div>
+      <div class="research-spotlight">
+        <p class="section-number">RESEARCH SPOTLIGHT</p>
+        <h2>Share a discovery or paper here</h2>
+        <p>This placeholder is ready for a manually curated neuroscience finding, research paper or lab update.</p>
+      </div>
+      <div class="resource-tools">
+        <label class="resource-search">
+          <span class="sr-only">Search neuroscience resources</span>
+          <input id="resource-search" type="search" placeholder="Search resources by name or keyword" autocomplete="off">
+        </label>
+        <div class="resource-filters" role="group" aria-label="Filter resources by category">
+          <button class="resource-filter is-active" type="button" data-category="all">All Resources</button>
+          <button class="resource-filter" type="button" data-category="news">Neuroscience News</button>
+          <button class="resource-filter" type="button" data-category="consciousness">Consciousness</button>
+          <button class="resource-filter" type="button" data-category="signals">Neural Signal Processing</button>
+          <button class="resource-filter" type="button" data-category="bci">Brain-Computer Interfaces</button>
+          <button class="resource-filter" type="button" data-category="media">YouTube &amp; Podcasts</button>
+          <button class="resource-filter" type="button" data-category="journals">Research Journals</button>
+        </div>
+      </div>
+      <div class="resource-grid" id="resource-grid" aria-live="polite"></div>
+      <p class="resource-empty" id="resource-empty" hidden>No resources match your search.</p>
+    </section>
+  </main>
   <footer class="footer container"><span>© 2026 Kalpajyoti Hazarika</span><span>Computational neuroscience · IISc</span></footer>
   <script src="site.js"></script>
+  <script src="resources.js"></script>
 </body>
 </html>
