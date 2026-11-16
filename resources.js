@@ -27,7 +27,8 @@ const neuroscienceResources = [
   { name: 'PubMed', category: 'journals', label: 'Research Journals & Scientific Literature', description: 'A searchable database of biomedical and life-science literature.', url: 'https://pubmed.ncbi.nlm.nih.gov/', action: 'Search Literature' },
   { name: 'Frontiers in Neuroscience', category: 'journals', label: 'Research Journals & Scientific Literature', description: 'Open-access neuroscience research and reviews.', url: 'https://www.frontiersin.org/journals/neuroscience', action: 'Visit Journal' },
   { name: 'Cerebral Cortex', category: 'journals', label: 'Research Journals & Scientific Literature', description: 'Research on the structure and function of the cerebral cortex.', url: 'https://academic.oup.com/cercor', action: 'Visit Journal' },
-  { name: 'NIMHANS Centre for Consciousness Studies', category: 'journals', label: 'Research Journals & Scientific Literature', description: 'A centre focused on consciousness studies and related research.', url: 'https://www.ccsnimhans.com/', action: 'Visit Website' }
+  { name: 'NIMHANS Centre for Consciousness Studies', category: 'journals', label: 'Research Journals & Scientific Literature', description: 'A centre focused on consciousness studies and related research.', url: 'https://www.ccsnimhans.com/', action: 'Visit Website' },
+  { name: 'Sensorimotor Superlab', category: 'journals', label: 'Research Journals & Scientific Literature', description: 'A weekly reading resource from Sensorimotor Superlab.', url: 'https://superlab.ca/', action: 'Visit Website' }
 ];
 
 const resourceGrid = document.querySelector('#resource-grid');
